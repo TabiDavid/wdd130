@@ -1,0 +1,13 @@
+* {
+    background-color: aqua;
+    width: 90%;
+}
+
+img{
+    height: 25%;
+    width: 25%;
+    align-content: center;
+}
+p{
+    text-align: justify;
+}
