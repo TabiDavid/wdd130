@@ -20,9 +20,10 @@ nav a:hover{
     background-color: #264653;
     color: white;
 }
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1{
     text-align: center;
     color: rgb(251, 247, 247);
+    
 }
 #hero-msg{
     grid-column: 2/3;
@@ -245,7 +246,48 @@ h4{
 .social{
     display: grid;
 }
-/* here start the rivers page */
+/* here start the about us page */
+
+#hero-services{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 200px 300px 100px;
+    margin-top: -100px;
+}
+
+#hero-msg-services{
+    grid-column: 2/3;
+    margin-top: 100px;
+}
+.services-title {
+    padding-top: 20%;
+    text-align: center;
+    font-size: xx-large;
+}
+.services-p{
+    font-size: x-large;
+    text-align: center
+}
+.small-banner{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.small-image{
+    width: 50%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.small-banner p{
+    text-align: center;
+}
+.small-button {
+    width: 50%;
+}
 
 /*Here is the form code*/
 
