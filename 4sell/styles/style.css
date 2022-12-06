@@ -128,12 +128,15 @@ nav a:hover{
 
 .support-one{
     grid-column: 2;
+    width: 50%;
 }
 .support-two{
     grid-column: 4;
+    width: 50%;
 }
 .support-three{
     grid-column: 6;
+    width: 50%;
 }
 
 main section{
@@ -173,7 +176,7 @@ footer{
     background-color: #ffd23f;
     color: #264653;
     padding: 25px 50px;
-    margin-top: 200px;
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -246,7 +249,7 @@ h4{
 .social{
     display: grid;
 }
-/* here start the about us page */
+/* here start the Services page */
 
 #hero-services{
     display: grid;
@@ -288,6 +291,57 @@ h4{
 .small-button {
     width: 50%;
 }
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(4, auto);
+
+}
+.services-grid h1{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    text-align: center;
+    padding: 50px
+}
+.section-product{
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 2/4; 
+   
+}
+.section-product-two{
+
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+.section-support{
+    padding: 50px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+.section-support-two{
+    padding: 50px;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+.product-one, .product-two{
+    width: 100%;
+}
+.service-support-one,.service-support-two{
+    width: 50%;
+}
+
 
 /*Here is the form code*/
 
